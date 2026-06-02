@@ -78,7 +78,7 @@ app.get('/todo', function (req, res) {
     /* Redirects to the to do list if the page requested is not found */
     .use(function (req, res, next) {
         res.redirect('/todo');
-        res.send("<h1 style='color: purple;'>🚀 Automated CI/CD Pipeline Deployment Success! 🚀</h1>");
+       
     })
 
     .listen(port, function () {
